@@ -1,11 +1,36 @@
-.covid-text {
+/* /* search bar * */
+.search-bar {
   text-align: center;
+  margin: 30px 0;
+}
+.search-btn {
+  position: absolute;
+  left: 85%;
+  color: #555555;
+}
+
+#input-id {
+  position: relative;
+  width: 75%;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  background-color: #f1f3f4;
+  padding: 0 10px;
+  color: black;
+}
+.covid-text {
   color: #555555;
 }
 .covid-update-text {
-  text-align: center;
   color: #aaaaaa;
   font-size: 40px;
 }
-/* .covid19-update {
-} */
+.covid19-update {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.covid-update-recovered {
+  color: #8aca2b;
+  font-size: 40px;
+}
